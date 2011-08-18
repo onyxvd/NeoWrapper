@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="lib/README.txt"/>
 	<classpathentry kind="lib" path="lib/scala-library-2.9.0-1.jar"/>
 	<classpathentry kind="lib" path="lib/server-api-1.4.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

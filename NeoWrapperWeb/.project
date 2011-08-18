@@ -3,6 +3,7 @@
 	<name>NeoWrapperWeb</name>
 	<comment></comment>
 	<projects>
+		<project>NeoWrapper</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
