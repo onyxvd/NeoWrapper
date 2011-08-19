@@ -23,7 +23,11 @@ public class AcceptanceITCase {
     ClientConfig cc = new DefaultClientConfig();
     cc.getClasses().add(JacksonJsonProvider.class);
     client = Client.create(cc);
-    resource = client.resource("http://localhost:8080/item");
+    String port = System.getProperty("jetty.port");
+    if (port == null) {
+      port = "8080";
+    }
+    resource = client.resource("http://localhost:" + port + "/item");
   }
 
   @Test
